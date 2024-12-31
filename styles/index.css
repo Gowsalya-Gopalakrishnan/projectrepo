@@ -1,0 +1,179 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 99%;
+    /* height: 800vb; */
+    background-color: white;
+    position: relative;
+}
+header{
+    /* border: 2px solid black; */
+    width: 99%;
+    height: 28vb;
+    padding: 10px;
+}
+header #logo{
+    width: 35%;
+    height: 100px;
+    margin-left: 30%;
+}
+ /* header #top{ */
+    /* position: fixed;
+    width: 99%;
+    height: 20px; */
+/* } */
+#headings{
+    display: flex;
+    /* position: fixed; */
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+#headings h1{
+    font-family: "Trade Gothic", sans-serif;
+    color: #061C2F;
+    line-height: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+#headings #h2{
+    font-family: "Trade Gothic", sans-serif;
+    color: #061C2F;
+    line-height: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-right:80%;
+    
+}
+#icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#icons #icon1{
+    width: 35%;
+    height: 50px;
+    margin-bottom: -10%;
+    /* margin-left: 50%; */
+
+}
+#icons #icon2{
+    width: 30%;
+    height: 30px;
+    
+}
+#icons #icon3{
+    width: 20%;
+    height: 30px;
+    
+}
+/* navbar */
+#navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* position: fixed; */
+}
+#navbar select{
+    width: 10%;
+    height: 50%;
+    border: none;
+    font-family: "Trade Gothic", sans-serif;
+    color: #061C2F;
+    line-height: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+@media screen and (max-width:768px){
+    #navbar select option{
+        display: none;
+        margin: 10px 0;
+    }
+    header #top{
+        top: 70px;
+    }
+}
+/* img of the bottom navbar  */
+#img{
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+ /* blinking imgs */
+.image-container{
+    position: relative;
+    width: 95%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 2%;
+}
+.bliking-img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    animation: blink 15s infinite ease-in-out;
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.blinking-image:nth-child(1){
+    animation-delay: 0s;
+}
+.blinking-image:nth-child(2){
+    animation-delay: 3s;
+}
+.blinking-image:nth-child(3){
+    animation-delay: 6s;
+}
+.blinking-image:nth-child(4){
+    animation-delay: 9s;
+}
+.blinking-image:nth-child(5){
+    animation-delay: 12s;
+}
+

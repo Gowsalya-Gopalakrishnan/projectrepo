@@ -1,0 +1,68 @@
+main{
+    width: 99%;
+    height: 800px;
+    margin-top: 65%;
+    /* border: 2px solid red; */
+}
+main p{
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-family: "Trade Gothic", sans-serif;
+}
+.new-arrivals-carts{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1%;
+    
+}
+.new-arrivals-carts .cart{
+    /* border: 1px solid red; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; ;
+    width: 15rem;
+    height: 380px;
+    margin-left: -10%;
+}
+.new-arrivals-carts .cart img{
+    width:12rem;
+    height:40vb;
+    margin-left: 10%;
+    
+}
+.new-arrivals-carts .cart img:hover{
+   transform: rotate(10deg);
+   /* transform: rotateX(-40deg); */
+   /* transform: rotateY(40deg); */
+   /* transform: rotateZ(-40deg); */
+   
+}
+.new-arrivals-carts .cart p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-top: -7%;
+    font-family: "Trade Gothic", sans-serif;
+
+
+}   
+.new-arrivals-carts .cart h2{
+    text-align: center;
+    font-family: "Trade Gothic", sans-serif;
+
+}
+.new-arrivals-carts .cart h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.new-arrivals-carts .cart p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.new-arrivals-carts .cart span{
+    text-decoration-line: line-through;
+    margin-right: 3%;
+    font-size: 0.9rem;
+}
+/* recommeded products */
+main #recommed{
+    margin-top: 10%;
+}
