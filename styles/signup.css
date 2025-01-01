@@ -1,0 +1,34 @@
+#form{
+    width: 25%;
+    height: 23rem;
+    /* border: 1px solid red; */
+    padding: 10px;
+    text-align: center;
+    box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10%;
+}
+#form #form-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#form #form-items input{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#form #form-items select{
+    height: 30px; 
+    border: none;   
+}
+#form #form-items #submit{
+    /* padding: 10px 20px; */
+    width: 30%;
+    margin-left: 35%;
+}
+body{
+    background-color:whitesmoke;
+
+}
