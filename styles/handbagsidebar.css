@@ -1,16 +1,53 @@
-.sidebar div{
+.sidebar {
     border: 1px solid red;
-    width: 30%;
-    /* height: 100%; */
-    margin-top: 2%;
+    width: 100%;
+    height: 900rem;
+
 }
-.sidebar h1{
+.h1{ 
     margin-left: 25%;
-    margin-top: 15%;
-    font-size: 3.5rem;
+    margin-top: -5%;
+    font-size: 2rem;
     text-transform: uppercase;
     font-style: normal;
+    margin-top: 15%;
+}
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    gap:3%;
+    margin-top: 6%;
+}
+.sidebar #filter{
+    border: 1px solid blue;
+    width: 25%;
+    height: 700px;
+    text-transform: uppercase;
+} 
+.sidebar #filter h2{
+    border-bottom: 1.5px solid grey;
+    /* margin-top: 10%; */
+
 }
 .sidebar #products{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
+    width: 73%;
+    height: 500px;
+    /* margin-top: 10%; */
+}
+.sidebar #products #sort{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+} 
+.sidebar #products #sort select{
+    width: 20%;
+    height: 40px;
+    margin-top: 2.5%;
+}
+.sidebar #products #product1{
+    border: 1px solid black;
+    width: 10%;
+    height: 20px;
+    margin-top: 5%;
 }
