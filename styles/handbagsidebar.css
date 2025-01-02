@@ -20,7 +20,7 @@
 }
 .sidebar #filter{
     border: 1px solid blue;
-    width: 25%;
+    width: 20%;
     height: 700px;
     text-transform: uppercase;
 } 
@@ -45,9 +45,46 @@
     height: 40px;
     margin-top: 2.5%;
 }
-.sidebar #products #product1{
-    border: 1px solid black;
-    width: 10%;
-    height: 20px;
+.sidebar #products #product-details{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3%;
+    margin-top: 3.5%;
+}
+.sidebar #products #product-details #main-product{
+    /* border: 1px solid black; */
+    width: 99%;
+    height: 400px;
     margin-top: 5%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; ;
+}
+.sidebar #products #product-details #main-product img{
+    width: 13rem;
+    height: 250px;
+}
+#product-details #main-product  p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-top: -7%;
+    font-family: "Trade Gothic", sans-serif;
+    text-align: center;
+
+}   
+#product-details #main-product  h2{
+    text-align: center;
+    font-family: "Trade Gothic", sans-serif;
+
+}
+#product-details #main-product  h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#product-details #main-product  p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#product-details #main-product  span{
+    text-decoration-line: line-through;
+    margin-right: 3%;
+    font-size: 0.9rem;
 }
