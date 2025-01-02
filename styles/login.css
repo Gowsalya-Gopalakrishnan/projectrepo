@@ -1,6 +1,6 @@
 #form{
     width: 25%;
-    height: 23rem;
+    height: 20rem;
     /* border: 1px solid red; */
     padding: 10px;
     text-align: center;
@@ -18,10 +18,6 @@
     height: 30px;
     border: 1px solid black;
     border-radius: 10px;
-}
-#form #form-items select{
-    height: 30px; 
-    border: none;   
 }
 #form #form-items #submit{
     /* padding: 10px 20px; */

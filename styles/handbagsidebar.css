@@ -1,0 +1,16 @@
+.sidebar div{
+    border: 1px solid red;
+    width: 30%;
+    /* height: 100%; */
+    margin-top: 2%;
+}
+.sidebar h1{
+    margin-left: 25%;
+    margin-top: 15%;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-style: normal;
+}
+.sidebar #products{
+    /* border: 1px solid blue; */
+}
