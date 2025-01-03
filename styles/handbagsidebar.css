@@ -1,7 +1,7 @@
 .sidebar {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
-    height: 900rem;
+    height: 270rem;
 
 }
 .h1{ 
@@ -30,7 +30,7 @@
 
 }
 .sidebar #products{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 73%;
     height: 500px;
     /* margin-top: 10%; */
@@ -38,12 +38,16 @@
 .sidebar #products #sort{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 15px;
+    margin-left: 60%;
 } 
 .sidebar #products #sort select{
-    width: 20%;
+    width: 69%;
     height: 40px;
-    margin-top: 2.5%;
+    margin-top: 2%;
+    font-family: "Trade Gothic", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
 }
 .sidebar #products #product-details{
     display: grid;
@@ -54,7 +58,7 @@
 .sidebar #products #product-details #main-product{
     /* border: 1px solid black; */
     width: 99%;
-    height: 400px;
+    /* height: 400px; */
     margin-top: 5%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; ;
 }
