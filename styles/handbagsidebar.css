@@ -88,3 +88,42 @@
     margin-right: 3%;
     font-size: 0.9rem;
 }
+/* productjs */
+.sidebar #products #product-details .product{
+    /* border: 1px solid black; */
+    width: 99%;
+    height: 400px;
+    margin-top: 5%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; ;
+}
+.sidebar #products #product-details .product img{
+    width: 13rem;
+    height: 250px;
+}
+#product-details .product  p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-top: -7%;
+    font-family: "Trade Gothic", sans-serif;
+    text-align: center;
+
+}   
+#product-details .product  h2{
+    text-align: center;
+    font-family: "Trade Gothic", sans-serif;
+
+}
+#product-details .product  h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#product-details .product  p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#product-details .product  span{
+    text-decoration-line: line-through;
+    margin-left: 20%;
+    font-size: 0.9rem;
+    text-align: center;
+}
