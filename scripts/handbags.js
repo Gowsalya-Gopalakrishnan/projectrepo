@@ -1,7 +1,8 @@
 const products = [
     {name:"GUCCI",price:800,description:"GUCCI WOMEN'S PYTHON SOFT STIRRUP CLUTCH BAG",image:'./assets/handbagsgucci1455.png',oldPrice:2400},
     {name:"MULBERRY",price:1500,description:"MULBERRY MINI IRIS HANDBAG",image:'./assets/handbags mulberry 684.png',oldPrice:1240},
-    {name:"TOM FORD",price:400,description:"TOM FORD WOMENS QUILTED SHOULDER BAG IN BLACK",image:'./assets/handbags tomford 1110.png',oldPrice:2990}
+    {name:"TOM FORD",price:400,description:"TOM FORD WOMENS QUILTED SHOULDER BAG IN BLACK",image:'./assets/handbags tomford 1110.png',oldPrice:2990},
+    {name:"GUCCI",price:1526.00,description:"GUCCI SYLVIE SMALL SHOULDER BAG",image:'./assets/handbagsgucci 1526.png',oldPrice:2630.00}
 ];
 
 let filteredProducts = [...products];
