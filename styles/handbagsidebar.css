@@ -19,7 +19,7 @@
     margin-top: 6%;
 }
 .sidebar #filter{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 20%;
     height: 700px;
     text-transform: uppercase;
@@ -130,4 +130,12 @@
     margin-left: 20%;
     font-size: 0.9rem;
     text-align: center;
+}
+/* filter style */
+.sidebar #filter select{
+    width: 99%;
+    height: 30px;
+    font-family: "Trade Gothic", sans-serif;
+   font-size: 1rem;
+   
 }

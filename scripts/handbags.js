@@ -84,13 +84,16 @@ filterByCategory.addEventListener("change",function(){
 
     if(selectedCategory === ""){
         filteredProducts = [...products];
-    }else if(selectedCategory === "DIOR"||selectedCategory === "GUCCI"||selectedCategory === "CHISRISTIAN"){
-        filteredProducts =  products.filter(products=> products.category === selectedCategory);
+    }else if(selectedCategory === "GUCCI"||selectedCategory === "CHIRISTIAN"||selectedCategory === "BOTTEGA VENETA"||selectedCategory === "SAINT LAURENT"
+        ||selectedCategory === "BALENCIAGA"||selectedCategory === "VALENTINOBYMARIO"||selectedCategory === "DIOR"||selectedCategory === "VALENTINO"||selectedCategory === "FERRAGAMO")
+    {
+        filteredProducts =  products.filter(product=> product.category === selectedCategory);
     }else{
         filteredProducts=[...products];
     }
+    renderProducts(filteredProducts,filterByCategory);
+    operations();
+    // filterby();
 
 });
-renderProducts(filteredProducts);
-operations();
-filterby();
+
