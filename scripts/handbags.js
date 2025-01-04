@@ -74,7 +74,8 @@ function operations(){
         renderProducts(filteredProducts);
     });
 }
-
+renderProducts(filteredProducts);
+operations();
 
 
 //filter by category
