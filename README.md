@@ -14,5 +14,7 @@ interface, secure shopping experience, and customer-centric policies,
 Bluefly remains a popular destination for online shoppers seeking quality and style.
 
 💻 Tech Stack:
+
 ![src](./assets/html,css,js%20img.png)
+
 ![src](./assets/json%20server.png)
