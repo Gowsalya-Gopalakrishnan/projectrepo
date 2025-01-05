@@ -16,7 +16,7 @@ Bluefly remains a popular destination for online shoppers seeking quality and st
 💻 Tech Stack:
 
 ![src](./assets/html,css,js%20img.png)
-<<<<<<< HEAD
+
 ![src](./assets/json%20server.png)
 
 PROJECT TYPE
@@ -60,11 +60,8 @@ SCREENSHOTS
 
 ![recommend](./assets/reccom%202.png)
 
-![footer](./assets/Screenshot%20(354).png)
+![footer](./assets/foo.png)
 
 ![productsonlyone](./assets/handbag%20product1.png)
 
-=======
 
-![src](./assets/json%20server.png)
->>>>>>> 26f813a260ab6b3b5272de1800989934f870dea7
