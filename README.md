@@ -25,7 +25,7 @@ Frontend | Backend | Fullstack
 
 DEPLOYED LINK:
 
-Frontend -
+Frontend - https://gowsalya-gopalakrishnan.github.io/projectrepo/
 
 
 DIRECTORY STRUCTURE
