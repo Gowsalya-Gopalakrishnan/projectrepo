@@ -16,3 +16,49 @@ Bluefly remains a popular destination for online shoppers seeking quality and st
 💻 Tech Stack:
 ![src](./assets/html,css,js%20img.png)
 ![src](./assets/json%20server.png)
+
+PROJECT TYPE
+
+Frontend | Backend | Fullstack
+
+DEPLOYED LINK:
+
+Frontend -
+
+
+DIRECTORY STRUCTURE
+
+my-signin-app -> Backend -> frontend -> ||
+
+VIDEO WALKTHROUGH OF THE PROJECT 
+
+![src]
+
+FEATURES 
+
+Wide Range of Categories : Bluefly offers an extensive selection of profucts across various categories, including women's,men's and children's fashion, as well as handbags,shoes and accessories.
+
+User-Friendly Shopping Experience : With easy navigation, detailed product descriptions, 
+
+Soring and Filtering the products are category wise
+
+SCREENSHOTS 
+
+![signin](./assets/signup.png)
+
+![login](./assets/login.png)
+
+![frontpage](./assets/frontend%20page.png)
+
+![shopby](./assets/shop%20by1.png)
+
+![shopby](./assets/shop%20bt%202.png)
+
+![newarrivals](./assets/new%20arrivial.png)
+
+![recommend](./assets/reccom%202.png)
+
+![footer](./assets/Screenshot%20(354).png)
+
+![productsonlyone](./assets/handbag%20product1.png)
+
