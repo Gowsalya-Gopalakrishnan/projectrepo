@@ -17,7 +17,6 @@ Bluefly remains a popular destination for online shoppers seeking quality and st
 
 ![src](./assets/html,css,js%20img.png)
 
-![src](./assets/json%20server.png)
 
 PROJECT TYPE
 
@@ -46,10 +45,6 @@ Soring and Filtering the products are category wise
 
 SCREENSHOTS 
 
-![signin](./assets/signup.png)
-
-![login](./assets/login.png)
-
 ![frontpage](./assets/frontend%20page.png)
 
 ![shopby](./assets/shop%20by1.png)
@@ -64,4 +59,4 @@ SCREENSHOTS
 
 ![productsonlyone](./assets/handbag%20product1.png)
 
-![jsonbackend](./assets/json%20backend.png)
+
